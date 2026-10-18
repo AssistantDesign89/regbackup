@@ -1,0 +1,50 @@
+{
+    "name":  "regbackup",
+    "logo":  "🗄️",
+    "exe":  "RegBackup.exe",
+    "desc":  "Free, open-source registry backup tool for Windows — snapshot hives before risky tweaks, restore safely. 100 MB portable, MIT.",
+    "topics":  [
+                   "registry-backup",
+                   "registry-restore",
+                   "erunt-alternative",
+                   "backup",
+                   "system-tools",
+                   "tweaking",
+                   "windows",
+                   "windows-10",
+                   "windows-11",
+                   "csharp",
+                   "dotnet",
+                   "reg-hive",
+                   "system-restore",
+                   "sysadmin",
+                   "maintenance",
+                   "portable",
+                   "open-source",
+                   "mit-license"
+               ],
+    "features":  [
+                     "✅ **Complete hive backup** — SAM, SECURITY, SOFTWARE, SYSTEM, DEFAULT plus user hives saved consistently",
+                     "✅ **Scheduled snapshots** — daily or before-shutdown runs with retention thinning to cap disk use",
+                     "✅ **Named restore points** — label backups with reasons like before GPU driver update",
+                     "✅ **Restore with safeguards** — refuses mismatched builds, offers a pre-restore backup of current hives",
+                     "✅ **Size transparency** — shows each hive size and total before writing a single byte",
+                     "✅ **No install, no service** — runs exactly when you run it; nothing resident between snapshots",
+                     "✅ **100 MB self-contained exe** — runtime bundled, portable, offline, MIT with SHA-256 releases"
+                 ],
+    "compare":  [
+                    "| Feature | **regbackup** | ERUNT | Tweaking Registry Backup | System Restore |",
+                    "|---|:---:|:---:|:---:|:---:|",
+                    "| Price | **Free, MIT** | Free, OSS | Free | Built-in |",
+                    "| Open source | **Yes** | Yes | No | No |",
+                    "| Maintained on Win10 and 11 | **Yes** | No | Yes | Yes |",
+                    "| Scheduled with retention | **Yes** | Task scripted | Yes | Partial |",
+                    "| Named manual snapshots | **Yes** | Yes | Partial | Partial |",
+                    "| Portable, no install | **Yes, 100 MB** | Zip | Installer | With OS |"
+                ],
+    "faqQ":  "how to back up the Windows registry before making changes?",
+    "faqA":  "Microsoft removed the automatic REGBACK task in Windows 10, so tweaks that damage the registry now have no built-in undo. regbackup snapshots every hive on demand or on a schedule, labels snapshots with a reason and restores with a pre-restore backup of the current state. It is a 100 MB portable exe under MIT.",
+    "s1":  "Dark hive list (#121417, slate #94A3B8): five hives with sizes summing 812 MB, Snapshot now button, last backup timestamp card green.",
+    "s2":  "Snapshot labels: three named entries (clean install, pre GPU update, audit week), retention policy dropdown keep 10, delete and restore actions.",
+    "s3":  "Restore flow: build match check passed, pre-restore backup toggle on, warning strip about reboot requirement, confirm dialog preview."
+}
